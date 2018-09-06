@@ -614,9 +614,9 @@ var handleAuth = function(authData) {
   var curUrl = window.location.href;
   auth.parseCognitoWebResponse(curUrl);
   auth.getSession();
-  document.getElementById("signOut").addEventListener("click", function() {
-    auth.signOut();
-  });
+  //document.getElementById("signOut").addEventListener("click", function() {
+  //  auth.signOut();
+  //});
 };
 
 /* Application Controller
